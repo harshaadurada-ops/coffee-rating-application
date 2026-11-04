@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Rating Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>☕ Coffee Rating Application</h1>
+        <p>Discover, rate and explore your favourite coffee blends!</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search coffee by name or origin..."
+            >
+        </section>
+
+        <section>
+            <h2>Explore Coffee Blends</h2>
+            <p id="statusMessage">Loading coffee blends...</p>
+            <div id="coffeeContainer" class="coffee-grid"></div>
+        </section>
+
+        <section class="leaderboard-section">
+            <h2>🏆 Top Rated Coffees</h2>
+            <div id="leaderboard"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with ☕ and passion for coffee</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
